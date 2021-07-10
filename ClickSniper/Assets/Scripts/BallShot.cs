@@ -10,14 +10,14 @@ public class BallShot : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        time = 0.5f;//タイムを１秒で始めて、最初の１回は発射OK
+        time = 0.3f;//タイムを１秒で始めて、最初の１回は発射OK
     }
 
     // Update is called once per frame
     void Update()
     {
         time += Time.deltaTime;//連射防止　カウントアップタイマー
-        if (time >= 0.5f)//連射防止１秒立てば実行
+        if (time >= 0.3f)//連射防止１秒立てば実行
         {
             if (Input.GetMouseButtonDown(0))//マウス左クリックしたとき
             {
