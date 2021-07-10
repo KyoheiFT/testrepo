@@ -646,7 +646,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0f6c46872123a384da0a374d1e4ecd3a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  target: {fileID: 8820400328905494485, guid: 3ffeec227d19de249ab1b8d8a087f2e8, type: 3}
+  targetArray:
+  - {fileID: 8820400328905494485, guid: 3ffeec227d19de249ab1b8d8a087f2e8, type: 3}
+  - {fileID: 437441597740863593, guid: 0a071b87ac93fd54390a0ca495ed62c6, type: 3}
+  - {fileID: 9197777320146823130, guid: f0aac04cce7386141a1d527c71fa1e50, type: 3}
 --- !u!1 &1548359182
 GameObject:
   m_ObjectHideFlags: 0
